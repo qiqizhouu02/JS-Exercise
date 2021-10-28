@@ -15,3 +15,30 @@ number2 += 2
 
 console.log(number1); // Should show 3
 console.log(number2); // Should show 5
+
+const weather = prompt("What's the day after day?");
+switch (weather) {
+    case "monday":
+        console.log("tuesday");
+        break;
+    case "tuesday":
+        console.log("wednesday");
+        break;
+    case "wednesday":
+        console.log("thursday");
+        break;
+    case "thursday":
+        console.log("friday");
+        break;
+    case "friday":
+        console.log("saturday");
+        break;
+    case "saturday":
+        console.log("sunday");
+        break;
+    case "sunday":
+        console.log("monday");
+        break;
+    default:
+        console.log("Not a default day");
+}
