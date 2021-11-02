@@ -16,6 +16,13 @@ number2 += 2
 console.log(number1); // Should show 3
 console.log(number2); // Should show 5
 
+function sayHello() {
+    console.log("Hello!");
+}
+console.log("Start of program");
+sayHello();
+console.log("End of program");
+
 const weather = prompt("What's the day after day?");
 switch (weather) {
     case "monday":
@@ -42,3 +49,9 @@ switch (weather) {
     default:
         console.log("Not a default day");
 }
+
+//improved hello
+const sayHello = (firstName, lastName) => `Hello, ${firstName} ${lastName}!`;
+const firstName = prompt("Enter your first name:");
+const lastName = prompt("Enter your last name:");
+console.log(sayHello(firstName, lastName));
