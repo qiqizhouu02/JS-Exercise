@@ -52,9 +52,3 @@ switch (weather) {
     default:
         console.log("Not a default day");
 }
-
-//improved hello
-const sayHello = (firstName, lastName) => `Hello, ${firstName} ${lastName}!`;
-const firstName = prompt("Enter your first name:");
-const lastName = prompt("Enter your last name:");
-console.log(sayHello(firstName, lastName));
