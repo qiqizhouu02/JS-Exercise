@@ -16,6 +16,8 @@ number2 += 2
 console.log(number1); // Should show 3
 console.log(number2); // Should show 5
 
+//hello function
+
 function sayHello() {
     console.log("Hello!");
 }
@@ -23,6 +25,7 @@ console.log("Start of program");
 sayHello();
 console.log("End of program");
 
+//weather prompt
 const weather = prompt("What's the day after day?");
 switch (weather) {
     case "monday":
